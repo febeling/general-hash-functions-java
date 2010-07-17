@@ -21,7 +21,7 @@ public class GeneralHashFunctionLibrary
 {
 
 
-   public long RSHash(String str)
+   public static long RSHash(String str)
    {
       int b     = 378551;
       int a     = 63689;
@@ -38,7 +38,7 @@ public class GeneralHashFunctionLibrary
    /* End Of RS Hash Function */
 
 
-   public long JSHash(String str)
+   public static long JSHash(String str)
    {
       long hash = 1315423911;
 
@@ -52,7 +52,7 @@ public class GeneralHashFunctionLibrary
    /* End Of JS Hash Function */
 
 
-   public long PJWHash(String str)
+   public static long PJWHash(String str)
    {
       long BitsInUnsignedInt = (long)(4 * 8);
       long ThreeQuarters     = (long)((BitsInUnsignedInt  * 3) / 4);
@@ -76,7 +76,7 @@ public class GeneralHashFunctionLibrary
    /* End Of  P. J. Weinberger Hash Function */
 
 
-   public long ELFHash(String str)
+   public static long ELFHash(String str)
    {
       long hash = 0;
       long x    = 0;
@@ -97,7 +97,7 @@ public class GeneralHashFunctionLibrary
    /* End Of ELF Hash Function */
 
 
-   public long BKDRHash(String str)
+   public static long BKDRHash(String str)
    {
       long seed = 131; // 31 131 1313 13131 131313 etc..
       long hash = 0;
@@ -112,7 +112,7 @@ public class GeneralHashFunctionLibrary
    /* End Of BKDR Hash Function */
 
 
-   public long SDBMHash(String str)
+   public static long SDBMHash(String str)
    {
       long hash = 0;
 
@@ -126,7 +126,7 @@ public class GeneralHashFunctionLibrary
    /* End Of SDBM Hash Function */
 
 
-   public long DJBHash(String str)
+   public static long DJBHash(String str)
    {
       long hash = 5381;
 
@@ -140,7 +140,7 @@ public class GeneralHashFunctionLibrary
    /* End Of DJB Hash Function */
 
 
-   public long DEKHash(String str)
+   public static long DEKHash(String str)
    {
       long hash = str.length();
 
@@ -154,7 +154,7 @@ public class GeneralHashFunctionLibrary
    /* End Of DEK Hash Function */
 
 
-   public long BPHash(String str)
+   public static long BPHash(String str)
    {
       long hash = 0;
 
@@ -168,7 +168,7 @@ public class GeneralHashFunctionLibrary
    /* End Of BP Hash Function */
 
 
-   public long FNVHash(String str)
+   public static long FNVHash(String str)
    {
       long fnv_prime = 0x811C9DC5;
       long hash = 0;
@@ -184,7 +184,7 @@ public class GeneralHashFunctionLibrary
    /* End Of FNV Hash Function */
 
 
-   public long APHash(String str)
+   public static long APHash(String str)
    {
       long hash = 0xAAAAAAAA;
 

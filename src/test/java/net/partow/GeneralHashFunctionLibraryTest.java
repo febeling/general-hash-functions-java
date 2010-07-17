@@ -15,14 +15,13 @@
  *                                                                        *
  **************************************************************************
 */
-
-
+package net.partow;
 
 import java.io.*;
 import java.lang.*;
+import net.partow.GeneralHashFunctionLibrary;
 
-
-public class GeneralHashTest
+public class GeneralHashFunctionLibraryTest
 {
 
    public static void main(String args[]) throws IOException

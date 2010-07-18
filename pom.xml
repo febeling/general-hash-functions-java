@@ -20,6 +20,22 @@
     </license>
   </licenses>
 
+  <developers>
+    <developer>
+      <id>febeling</id>
+      <name>Florian Ebeling</name>
+      <email>florian.ebeling@gmail.com</email>
+      <url>http://florianebeling.com/</url>
+      <organization>nugg.ad</organization>
+      <organizationUrl>http://nugg.ad/</organizationUrl>
+      <roles>
+        <role>developer</role>
+        <role>maintainer</role>
+      </roles>
+      <timezone>+1</timezone>
+    </developer>
+  </developers>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
